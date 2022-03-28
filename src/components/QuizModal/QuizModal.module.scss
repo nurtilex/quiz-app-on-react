@@ -1,0 +1,48 @@
+.backdrop {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  z-index: 10;
+  background-color: rgba(0, 0, 0, 0.856);
+
+  &:hover {
+    cursor: pointer;
+  }
+
+  .modal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    width: 50%;
+    height: 50%;
+    border: 1px solid #000;
+    background-color: rgb(184, 174, 174);
+    z-index: 15;
+    border-radius: 10px;
+
+    &:hover {
+      cursor: default;
+    }
+
+    .question {
+      color: #000;
+      font-size: 1rem;
+      width: 80%;
+    }
+
+    .correct {
+      color: green;
+    }
+
+    .incorrect {
+      color: red;
+    }
+  }
+}

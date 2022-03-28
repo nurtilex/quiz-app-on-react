@@ -1,0 +1,16 @@
+.CategoryTitle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 2;
+  width: 80%;
+  height: 80%;
+  align-self: center;
+  justify-self: center;
+  font-weight: bold;
+  font-size: 1.2rem;
+  text-align: center;
+  background-color: #219ebc;
+  border-radius: 10px;
+  text-transform: uppercase;
+}
